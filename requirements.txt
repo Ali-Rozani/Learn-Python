@@ -3,4 +3,3 @@ seaborn
 pandas
 numpy
 sklearn
-streamlit
