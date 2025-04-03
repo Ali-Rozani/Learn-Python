@@ -140,29 +140,6 @@ st.write(squares)
     st.subheader("Interactive DataFrame")
     st.write("Here's an interactive table displaying a DataFrame:")
     st.dataframe(data)
-
-    # Machine Learning (Simple Linear Regression)
-    st.subheader("Machine Learning - Simple Linear Regression")
-    st.write("""
-        We'll use a basic Linear Regression model to predict values.
-    """)
-    
-    # Simulate data
-    x = np.random.rand(100, 1) * 10
-    y = 3 * x + 7 + np.random.randn(100, 1) * 2
-
-    from sklearn.linear_model import LinearRegression
-    model = LinearRegression()
-    model.fit(x, y)
-    predictions = model.predict(x)
-
-    # Plot the data and regression line
-    plt.scatter(x, y, color='blue')
-    plt.plot(x, predictions, color='red')
-    plt.title('Linear Regression Example')
-    plt.xlabel('X')
-    plt.ylabel('Y')
-    st.pyplot(plt)
     # Asynchronous Programming
 st.header("Asynchronous Programming")
 st.subheader("Asyncio Library")
