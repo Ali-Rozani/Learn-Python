@@ -3,3 +3,7 @@ seaborn
 pandas
 numpy
 sklearn
+rich
+markdown-it-py
+mdurl
+pygments
