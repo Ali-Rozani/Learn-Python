@@ -217,14 +217,3 @@ posts = response.json()
 for post in posts[:3]:
     st.write(post)
     """, language='python')
-
-# Web Scraping
-st.header("Web Scraping with BeautifulSoup")
-st.subheader("Installing BeautifulSoup and Requests")
-st.write("""
-Web scraping is the process of extracting data from websites. To scrape web data, you can use the `requests` and `BeautifulSoup` modules.
-First, you need to install the necessary packages:
-```bash
-pip install requests beautifulsoup4
-```
-""")
